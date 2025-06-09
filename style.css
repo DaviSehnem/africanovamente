@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Radley:ital@0;1&display=swap');
+:root{
+    --branco: white;
+    --cor-de-fundo: black;
+    --fundo-senha: green;
+    --fundo-texto: black;
+    --borda: #dddddd;
+    --font: 'Radley', sans-serif;
+}
+* {
+    font-weigth: 400;
+    
+}
+
+body{
+    color: var(--branco);
+    background-color: var(--cor-de-fundo);
+    font-family: var(--font);
+}
+
+.titulo_principal{
+    font-family: var(--font);
+}
